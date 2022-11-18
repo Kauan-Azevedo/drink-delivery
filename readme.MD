@@ -14,3 +14,6 @@
 
 - Html, Css, Javascript
 - Sass
+
+## Deploy
+[![Netlify Status](https://api.netlify.com/api/v1/badges/30e33030-e6ea-4848-889f-05d857f8ca38/deploy-status)](https://app.netlify.com/sites/drink-delivery/deploys)
