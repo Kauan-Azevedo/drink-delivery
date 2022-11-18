@@ -36,8 +36,8 @@ body ul {
   list-style: none;
 }
 
-section {
-  min-height: 80vh;
+section { 
+  height: clamp(70vh, 75vh, 80vh);
   padding: 0 1rem;
 }
 
@@ -233,6 +233,8 @@ section {
     background-color: var(--text-color);
     color: var(--bg-color);
     width: 100%;
+    font-weight: bold;
+    border-radius: 10px;
   }
 
 }
