@@ -12,7 +12,7 @@
   --primary-color: #c76a12;
   --secondary-color: #b90f12;
 
-  --text-color: rgb(14, 14, 14);
+  --text-color: #14213D;
   --bg-color: #c2cde4;
 }
 
@@ -66,6 +66,7 @@ section {
 .header__logo {
   color: var(--primary-color);
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .header__navbar ul {
@@ -83,12 +84,9 @@ section {
   font-size: 0.8rem;
 }
 
-.header__navbar ul li .active {
-  color: var(--primary-color);
-}
-
 .header__navbar ul li a:hover {
   color: var(--primary-color);
+  font-weight: bold;
 }
 
 .section-title{
@@ -220,6 +218,7 @@ section {
 }
 .footer__list a:hover {
   color: #e5383b;
+  font-weight: bold;
 }
 
 @media (min-width: 600px) {
@@ -227,6 +226,7 @@ section {
     min-height: 390px;
     background-color: var(--text-color);
     color: var(--bg-color);
+    cursor: pointer;
   }
 
   .proposta .solucoes .solucao:hover {
@@ -235,6 +235,7 @@ section {
     width: 100%;
     font-weight: bold;
     border-radius: 15px;
+    cursor: pointer;
   }
 
 }
