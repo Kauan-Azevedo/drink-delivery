@@ -43,7 +43,7 @@ section {
 .hidden{
   opacity: 0;
   transform: translateX(-100%);
-  transition: .7s ease;
+  transition: 1s ease;
 }
 
 .show{
@@ -83,6 +83,14 @@ section {
 }
 .header__navbar ul li a:hover {
   color: var(--primary-color);
+}
+
+.section-title{
+  width: 100%;
+  text-align: center;
+  font-size: 37px;
+  font-weight: bold;
+  padding: 2.5rem 1.5rem;
 }
 
 .inicio {
