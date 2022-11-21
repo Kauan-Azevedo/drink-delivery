@@ -9,8 +9,8 @@
 }
 
 [data-theme='dark']{
-  --primary-color: #c76a12;
-  --secondary-color: #b90f12;
+  --primary-color: #f45e00;
+  --secondary-color: #d90a0d;
 
   --text-color: #14213D;
   --bg-color: #c2cde4;
@@ -85,7 +85,7 @@ section {
 }
 
 .header__navbar ul li a:hover {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-weight: bold;
 }
 
