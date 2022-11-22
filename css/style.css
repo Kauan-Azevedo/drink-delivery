@@ -186,7 +186,7 @@ section {
 
 .proposta .solucoes .solucao {
   width: 80%;
-  height: clamp(150px, 150px, 180px);
+  min-height: 150px;
   border: 2px solid var(--text-color);
   padding: 0.8rem;
   transition: 0.3s ease;
