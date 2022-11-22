@@ -1,4 +1,4 @@
-:root{
+:root {
   --primary-color: #FCA311;
   --secondary-color: #e5383b;
 
@@ -8,7 +8,7 @@
   --container-width: 1244px;
 }
 
-[data-theme='dark']{
+[data-theme='dark'] {
   --primary-color: #c76a12;
   --secondary-color: #b90f12;
 
@@ -27,27 +27,29 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
 }
+
 body a {
   color: var(--text-color);
   text-decoration: none;
   transition: 0.3s;
 }
+
 body ul {
   list-style: none;
 }
 
-section { 
-  height: clamp(70vh, 75vh, 80vh);
+section {
+  min-height: 80vh;
   padding: 0 1rem;
 }
 
-.hidden{
+.hidden {
   opacity: 0;
   transform: translateX(-100%);
   transition: 1s ease;
 }
 
-.show{
+.show {
   opacity: 1;
   transform: translateX(0);
 }
@@ -89,7 +91,7 @@ section {
   font-weight: bold;
 }
 
-.section-title{
+.section-title {
   width: 100%;
   text-align: center;
   font-size: 37px;
@@ -216,6 +218,7 @@ section {
   margin-top: 50px;
   text-align: center;
 }
+
 .footer__list a:hover {
   color: #e5383b;
   font-weight: bold;
@@ -244,21 +247,26 @@ section {
   .problema .cards {
     flex-direction: column;
   }
+
   .problema .cards .card {
     max-width: 100%;
   }
+
   .proposta .solucoes {
     max-width: 100%;
     margin: 0;
   }
+
   .proposta .solucoes .solucao {
     width: 100%;
     text-align: center;
   }
+
   .proposta .solucoes .solucao--reverso .solucao__title {
     display: block;
   }
 }
+
 @media (max-width: 428px) {
   .header {
     flex-direction: column;
